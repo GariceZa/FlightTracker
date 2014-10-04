@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Flight Tracker</string>
+    <string name="title_activity_maps">Flight Tracker</string>
+    <string name="map">Map</string>
+    <string name="startTracking">Start</string>
+    <string name="stopTracking">Stop</string>
+    <string name="normal">Normal</string>
+    <string name="satellite">Satellite</string>
+    <string name="terrain">Terrain</string>
+    <string name="legalNotice">Legal Notice</string>
+    <string name="preferences">Preferences</string>
+    <string name="exit">Exit</string>
+    <string name="Back">Back</string>
+    <string name="speed">Spd: </string>
+    <string name="bearing">Brg: </string>
+    <string name="altitude">Alt: </string>
+    <string name="distance">Dist: </string>
+    <string name="settings">Settings</string>
+    <string name="speedSetting">Speed</string>
+    <string name="distanceSetting">Distance</string>
+    <string name="altitudeSetting">Altitude</string>
+    <string name="kph">Kph</string>
+    <string name="mph">Mph</string>
+    <string name="knots">Knots</string>
+    <string name="km">KM</string>
+    <string name="miles">Miles</string>
+    <string name="nm">NM</string>
+    <string name="meters">Meters</string>
+    <string name="feet">Feet</string>
+    <string name="savedFlights">Saved Flights</string>
+    <string name="speedChoice">Select your preferred unit of measuring speed</string>
+    <string name="distanceChoice">Select your preferred unit of measuring distance</string>
+    <string name="altitudeChoice">Select your preferred unit of measuring altitude</string>
+    <string name="flightDetails">Enter a short description of the flight</string>
+
+
+</resources>

@@ -1,0 +1,42 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context="com.aviation.gareth.flighttracker.FlightInfo">
+
+    <TableRow>
+        <TextView
+            android:id="@+id/speed"
+            android:layout_width="0dp"
+            android:layout_weight=".25"
+            android:layout_height="match_parent"
+            android:textSize="15sp"
+            android:text="@string/speed" />
+
+        <TextView
+            android:id="@+id/altitude"
+            android:layout_width="0dp"
+            android:layout_weight=".25"
+            android:layout_height="match_parent"
+            android:textSize="15sp"
+            android:text="@string/altitude" />
+
+        <TextView
+            android:id="@+id/distance"
+            android:layout_width="0dp"
+            android:layout_weight=".25"
+            android:layout_height="match_parent"
+            android:textSize="15sp"
+            android:text="@string/distance" />
+
+        <TextView
+            android:id="@+id/bearing"
+            android:layout_width="0dp"
+            android:layout_weight=".25"
+            android:layout_height="match_parent"
+            android:textSize="15sp"
+            android:text="@string/bearing" />
+    </TableRow>
+
+</TableLayout>

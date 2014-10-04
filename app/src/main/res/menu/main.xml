@@ -1,0 +1,72 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MapActivity" >
+
+    <item
+        android:id="@+id/StartStopTracking"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="@string/startTracking">
+    </item>
+
+    <item
+        android:id="@+id/mapType"
+        android:orderInCategory="100"
+        android:title="@string/map"
+        android:showAsAction="always">
+
+        <menu>
+            <group
+                android:checkableBehavior="single"
+                >
+                <item android:id="@+id/normal"
+                    android:title="@string/normal"
+                    android:orderInCategory="1"
+                    android:checked="true"
+                    app:showAsAction="never" />
+
+                <item android:id="@+id/satellite"
+                    android:title="@string/satellite"
+                    android:orderInCategory="2"
+                    app:showAsAction="never"/>
+
+                <item android:id="@+id/terrain"
+                    android:title="@string/terrain"
+                    android:orderInCategory="3"
+                    app:showAsAction="never" />
+            </group>
+        </menu>
+
+    </item>
+
+
+    <item
+        android:id="@+id/legalnotices"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:title="@string/legalNotice">
+    </item>
+
+    <item
+        android:id="@+id/preferences"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:title="@string/preferences">
+    </item>
+
+    <item
+        android:id="@+id/viewFlights"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:title="@string/savedFlights">
+    </item>
+
+    <item
+        android:id="@+id/exit"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:title="@string/exit">
+    </item>
+
+</menu>
