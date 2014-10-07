@@ -21,7 +21,6 @@ import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.PolylineOptions;
 
-
 import java.sql.SQLException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
