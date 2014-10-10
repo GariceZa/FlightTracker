@@ -13,7 +13,6 @@ public class Splash extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
-
         //creating a new thread
         Thread timer = new Thread() {
 
