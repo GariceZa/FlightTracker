@@ -52,8 +52,7 @@ public class MapsActivity extends FragmentActivity implements  android.location.
         getActionBar().setIcon(new ColorDrawable(getResources().getColor(android.R.color.transparent)));
         //---------------------------
 
-        if(GPServices.IsGooglePlayAvailable(this))
-        {
+        if(GPServices.IsGooglePlayAvailable(this)){
             setContentView(R.layout.activity_maps);
             setUpMapIfNeeded();
         }
@@ -78,16 +77,13 @@ public class MapsActivity extends FragmentActivity implements  android.location.
         SharedPreferences MapSetting = getSharedPreferences("MapSetting",0);
         String mapType = MapSetting.getString("map","");
 
-        if(mapType.equals("normal"))
-        {
+        if(mapType.equals("normal")){
             menu.findItem(R.id.normal).setChecked(true);
         }
-        else if(mapType.equals("satellite"))
-        {
+        else if(mapType.equals("satellite")){
             menu.findItem(R.id.satellite).setChecked(true);
         }
-        else if(mapType.equals("terrain"))
-        {
+        else if(mapType.equals("terrain")){
             menu.findItem(R.id.terrain).setChecked(true);
         }
 

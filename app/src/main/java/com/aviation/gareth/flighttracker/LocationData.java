@@ -109,7 +109,6 @@ public class LocationData extends Activity {
             //set new lat/long
             newLatLng = new LatLng(location.getLatitude(),location.getLongitude());
             flag = true;
-
             //initialize values
             p2PDistance = 0;
             totalDistance = 0;

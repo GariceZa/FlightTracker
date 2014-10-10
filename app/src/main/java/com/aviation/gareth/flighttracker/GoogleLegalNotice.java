@@ -29,7 +29,6 @@ public class GoogleLegalNotice extends Activity {
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-
         getMenuInflater().inflate(R.menu.legalnoticemenu, menu);
         return true;
     }

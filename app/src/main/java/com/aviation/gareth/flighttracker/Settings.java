@@ -93,6 +93,7 @@ public class Settings extends Activity {
                     togKph.setChecked(false);
                     togKph.setEnabled(true);
                 }
+
                 else if(togMph.isChecked()){
                     togMph.setChecked(false);
                     togMph.setEnabled(true);

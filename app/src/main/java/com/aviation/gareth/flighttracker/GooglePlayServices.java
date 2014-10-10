@@ -21,6 +21,7 @@ public class GooglePlayServices {
         if(status == ConnectionResult.SUCCESS){
             return true;
         }
+
         else{
             ((Dialog) GooglePlayServicesUtil.getErrorDialog(status, (Activity) context, 10)).show();
         }

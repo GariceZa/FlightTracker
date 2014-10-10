@@ -50,6 +50,7 @@ public class SaveDialog extends DialogFragment {
                         dialog.dismiss();
                     }
                 });
+
         return builder.create();
     }
 }

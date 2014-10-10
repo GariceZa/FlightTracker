@@ -20,6 +20,7 @@ public class ExitDialog extends DialogFragment {
         Bundle args = new Bundle();
         args.putString("title", title);
         EDF.setArguments(args);
+
         return EDF;
     }
 
