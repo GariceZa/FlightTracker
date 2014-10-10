@@ -28,6 +28,7 @@ public class Splash extends Activity {
                 }
             }
         };
+
         //when the thread starts it will sleep for 3 secs and then the MapsActivity will load
         timer.start();
     }
