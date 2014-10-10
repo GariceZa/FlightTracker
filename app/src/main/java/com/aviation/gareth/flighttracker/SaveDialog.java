@@ -21,6 +21,7 @@ public class SaveDialog extends DialogFragment {
     */
     static SaveDialog newInstance(){
         SaveDialog save = new SaveDialog();
+
         return save;
     }
 

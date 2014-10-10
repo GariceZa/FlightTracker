@@ -18,12 +18,10 @@ public class GooglePlayServices {
         alerted and provided with a link to the play store to get the service
     */
         int status = GooglePlayServicesUtil.isGooglePlayServicesAvailable(context);
-        if(status == ConnectionResult.SUCCESS)
-        {
+        if(status == ConnectionResult.SUCCESS){
             return true;
         }
-        else
-        {
+        else{
             ((Dialog) GooglePlayServicesUtil.getErrorDialog(status, (Activity) context, 10)).show();
         }
         return false;

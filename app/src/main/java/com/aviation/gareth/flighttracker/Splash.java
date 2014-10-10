@@ -24,6 +24,7 @@ public class Splash extends Activity {
                 } catch (InterruptedException Err) {
                     Err.printStackTrace();
                 } finally{
+
                     Intent startMaps = new Intent(".MapsActivity");
                     startActivity(startMaps);
                 }

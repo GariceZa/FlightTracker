@@ -97,7 +97,6 @@ public class MapsActivity extends FragmentActivity implements  android.location.
     public boolean onOptionsItemSelected(MenuItem item) {
 
         SharedPreferences MapSetting = getSharedPreferences("MapSetting",0);
-
         SharedPreferences.Editor edit = MapSetting.edit();
 
         switch(item.getItemId())

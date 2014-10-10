@@ -175,6 +175,7 @@ public class Settings extends Activity {
                 edit.putBoolean("distanceMiles",togMiles.isChecked());
                 edit.putBoolean("distanceNm",togNm.isChecked());
                 edit.commit();
+
                 //--------------------
             }
         });

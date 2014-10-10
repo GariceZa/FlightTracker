@@ -39,6 +39,7 @@ public class ViewFlights extends ListActivity {
             Toast.makeText(getApplicationContext(), "Error: " + Err, Toast.LENGTH_LONG).show();
         }
         finally {
+
             db.close();//closing db connection
         }
 
